@@ -56,8 +56,7 @@ Each file uses JSON Lines. Training examples follow this format:
 ```
 
 Source examples use `variant_id: 0`. Target examples have an empty assistant
-answer and use perturbation IDs `1` through `8`. The full 10,552-example
-GSM-Plus test set is not included.
+answer and use perturbation IDs `1` through `8`. 
 
 ## Training
 
