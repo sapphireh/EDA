@@ -1,6 +1,6 @@
 # Elastic Domain Adaptation (EDA)
 
-This repository contains the official code for our **EMNLP 2026** paper:
+This repository contains the official code for our **EMNLP 2026 Oral** paper:
 
 > **[Learning How to Align: Elastic Domain Adaptation for Improving Reasoning Robustness of Large Language Models](https://aclanthology.org/2026.emnlp-main.392/)**  
 > Yujie Hou, Mei Wang, Yaoyao Zhong, Guozhang Li, Qiannan Zhu, and Hua Huang  
