@@ -112,6 +112,9 @@ for all options.
 This release currently targets Llama 3.1-8B-Instruct. ALS and ESM are used
 during training; the final export contains the LoRA adapter and tokenizer.
 
+## Cite
+Hou Y, Wang M, Zhong Y, et al. Learning How to Align: Elastic Domain Adaptation for Improving Reasoning Robustness of Large Language Models[C]//Proceedings of the 2026 Conference on Empirical Methods in Natural Language Processing. 2026: 8995-9018.
+
 ## License
 
 Licensed under the [Apache License 2.0](LICENSE).
