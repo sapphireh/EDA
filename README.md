@@ -1,7 +1,18 @@
-# Elastic Domain Adaptation
+# Elastic Domain Adaptation (EDA)
 
-Official Llama 3.1-8B-Instruct implementation of **Elastic Domain Adaptation
-(EDA)** for improving reasoning robustness under question perturbations.
+This repository contains the official code for our **EMNLP 2026** paper:
+
+> **[Learning How to Align: Elastic Domain Adaptation for Improving Reasoning Robustness of Large Language Models](https://aclanthology.org/2026.emnlp-main.392/)**  
+> Yujie Hou, Mei Wang, Yaoyao Zhong, Guozhang Li, Qiannan Zhu, and Hua Huang  
+> *Proceedings of the 2026 Conference on Empirical Methods in Natural Language Processing*, pp. 8995–9018.
+
+[Paper](https://aclanthology.org/2026.emnlp-main.392/) | [PDF](https://aclanthology.org/2026.emnlp-main.392.pdf) | [Citation](#citation)
+
+## Overview
+
+This release provides a **Llama 3.1-8B-Instruct** implementation of **Elastic
+Domain Adaptation (EDA)** for improving reasoning robustness under question
+perturbations.
 
 EDA contains two main components:
 
@@ -113,9 +124,29 @@ This release currently targets Llama 3.1-8B-Instruct. ALS and ESM are used
 during training; the final export contains the LoRA adapter and tokenizer.
 
 ## Citation
-```txt
-Hou Y, Wang M, Zhong Y, et al. Learning How to Align: Elastic Domain Adaptation for Improving Reasoning Robustness of Large Language Models[C]//Proceedings of the 2026 Conference on Empirical Methods in Natural Language Processing. 2026: 8995-9018.
+
+If you find this code or our method useful in your research, please cite our paper:
+
+```bibtex
+@inproceedings{hou-etal-2026-learning,
+    title = "Learning How to Align: Elastic Domain Adaptation for Improving Reasoning Robustness of Large Language Models",
+    author = "Hou, Yujie  and
+      Wang, Mei  and
+      Zhong, Yaoyao  and
+      Li, Guozhang  and
+      Zhu, Qiannan  and
+      Huang, Hua",
+    booktitle = "Proceedings of the 2026 Conference on Empirical Methods in Natural Language Processing",
+    month = oct,
+    year = "2026",
+    address = "Budapest, Hungary",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2026.emnlp-main.392/",
+    doi = "10.18653/2026.emnlp-main.392",
+    pages = "8995--9018"
+}
 ```
+
 ## License
 
 Licensed under the [Apache License 2.0](LICENSE).
